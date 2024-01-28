@@ -1,0 +1,47 @@
+
+.mainContainer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f6f6f6;
+}
+.title{
+    font-size: 3em;
+    
+}
+.counter{
+    font-size: 5em;
+    font-weight: bold;
+    letter-spacing: 6px;
+
+}
+.buttonsContainer{
+    width: 100%;
+    justify-content: center;
+    gap: 1.2rem;
+    display: flex;
+
+}
+.button{
+    font-size: 1.5em;
+    border: 2px solid;
+    border-radius: 12px;
+    padding: 12px 18px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.negative_color{
+    border-color: #b44c43;
+    background-color: #fec9c9;
+}
+.cero_color{
+    border-color: #648292;
+    background-color:#c4e1ef;
+}
+.positive_color{
+    border-color:#0c6834;
+    background-color: #c0fdd6;
+}
